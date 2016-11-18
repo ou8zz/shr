@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8"/>
+<title>404</title>
+<!-- 引入框架通用css标签 -->
+<!--/*/ <th:block th:include="common/header :: head"></th:block> /*/-->
+<link rel="stylesheet" type="text/css" href="../global/css/error.css"/>
+</head>
+
+<body class="page-header-fixed page-quick-sidebar-over-content">
+
+<!-- 引入框架通用头部 -->
+<!--/*/ <th:block th:include="common/header :: htop"></th:block> /*/-->
+
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+	<!-- 引入框架通用边栏菜单 -->
+	<!--/*/ <th:block th:include="common/menus :: menus"></th:block> /*/-->
+	
+	<!-- BEGIN CONTENT -->
+	<div class="page-content-wrapper">
+		<div class="page-content">
+			<!-- BEGIN PAGE HEADER-->
+			<h4 class="page-title">404 <small></small></h4>
+			<ol class="breadcrumb"><li><i class="fa fa-home"></i> <a href="../app/index">首页</a></li><li class="active">404</li></ol>
+			<!-- END PAGE HEADER-->
+			<!-- BEGIN PAGE CONTENT-->
+			<div class="row">
+				<div class="col-md-12 page-404">
+					<div class="number">
+						 404
+					</div>
+					<div class="details">
+						<h3>Oops! 好像找不到页面了</h3>
+						<p>
+							 您访问的页面我们找不到了，<br/>
+							 请稍后重新试试呢！<br/><br/>
+						</p>
+					</div>
+				</div>
+				<!-- END PAGE CONTENT-->
+			</div>
+    	</div>
+	</div>
+</div>
+
+<!-- 引入框架通用script标签 -->
+<!--/*/ <th:block th:include="common/footer :: footer"></th:block> /*/-->
+</body>
+</html>

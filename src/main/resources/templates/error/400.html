@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8"/>
+<title>400</title>
+<!-- 引入框架通用css标签 -->
+<!--/*/ <th:block th:include="common/header :: head"></th:block> /*/-->
+<link rel="stylesheet" type="text/css" href="../global/css/error.css"/>
+</head>
+
+<body class="page-header-fixed page-quick-sidebar-over-content">
+
+<!-- 引入框架通用头部 -->
+<!--/*/ <th:block th:include="common/header :: htop"></th:block> /*/-->
+
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+	<!-- 引入框架通用边栏菜单 -->
+	<!--/*/ <th:block th:include="common/menus :: menus"></th:block> /*/-->
+	
+	<!-- BEGIN CONTENT -->
+	<div class="page-content-wrapper">
+		<div class="page-content">
+			<!-- BEGIN PAGE HEADER-->
+			<h4 class="page-title">403 <small></small></h4>
+			<ol class="breadcrumb"><li><i class="fa fa-home"></i> <a href="../app/index">首页</a></li><li class="active">400</li></ol>
+			<!-- END PAGE HEADER-->
+			<!-- BEGIN PAGE CONTENT-->
+			<div class="row">
+				<div class="col-md-12 page-500">
+					<div class="number">
+						 403
+					</div>
+					<div class="details">
+						<h3>访问被拒绝</h3>
+						<p>
+							 您没有权限访问该地址，<br/>
+							 如有问题请联系管理员！<br/><br/>
+						</p>
+					</div>
+				</div>
+			<!-- END PAGE CONTENT-->
+			</div>
+    	</div>
+	</div>
+</div>
+
+<!-- 引入框架通用script标签 -->
+<!--/*/ <th:block th:include="common/footer :: footer"></th:block> /*/-->
+</body>
+</html>
